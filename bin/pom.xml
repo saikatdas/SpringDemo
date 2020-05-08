@@ -45,16 +45,5 @@
 			</plugin>
 		</plugins>
 	</build>
-	<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>ip-172-31-46-66-releases</name>
-        <url>http://ec2-100-24-65-223.compute-1.amazonaws.com/artifactory/maven-release-repo</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>ip-172-31-46-66-snapshots</name>
-        <url>http://ec2-100-24-65-223.compute-1.amazonaws.com/artifactory/maven-release-repo</url>
-    </snapshotRepository>
-</distributionManagement>
+
 </project>
